@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type=" text/css">
+    <title>Contact</title>
+</head>
+<body>
+    <head>
+        <h1> Formulaire clients</h1>
+    </head>
+    <form>
+        <label for="civility">Civilité:</label>
+        <select id="civility" name="civility">
+            <option value="Monsieur">Monsieur</option>
+            <option value="Madame">Madame</option>
+        </select>
+        <br>
+        <label for="fullName">Nom et Prénom:</label>
+        <input type="text" id="fullName" name="fullName" required>
+        <br>
+        <label for="address">Adresse Postale:</label>
+        <input type="text" id="address" name="address" required>
+        <br>
+        <label for="privacyPolicy">Politiques de confidentialité:</label>
+        <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+        <br>
+        <input type="submit" class="submit-button" value="Valider">
+    </form>
+</body>
+</html>

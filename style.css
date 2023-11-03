@@ -1,0 +1,120 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    margin: 0%;
+    padding: 30px;
+}
+.rose{
+    color: deeppink;
+    text-align: center;
+
+
+
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: #bc1778;
+    text-align: center;
+}
+.team-description {
+    margin: 30px 0;
+}
+.team-member {
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+}
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+.grid-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid: gap 1em;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    border: 0px solid black;
+    padding: 20px;
+    background-color: #bc1778;
+
+
+}
+ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.photo img {
+    width: 200px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rubi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}    
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.image img{
+    width: 200px;
+}
+.petalle{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+}
+
+.petalle img{
+    width: 200px;
+}
+
+ .petalle img{
+    width: 200px;
+    height: auto ;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
